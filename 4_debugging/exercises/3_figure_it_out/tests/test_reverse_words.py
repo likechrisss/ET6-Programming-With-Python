@@ -16,7 +16,8 @@ Author: Claude AI
 
 import unittest
 
-from ..reverse_words import reverse_words
+from reverse_words import reverse_words
+
 
 class TestReverseWords(unittest.TestCase):
     """Test the reverse_words function"""
