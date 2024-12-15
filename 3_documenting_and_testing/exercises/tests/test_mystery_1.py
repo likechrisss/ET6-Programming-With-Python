@@ -3,6 +3,8 @@ from exercises.mystery_1 import mystery_1  # Adjust the import path as needed
 
 
 class TestMystery1(unittest.TestCase):
+<<<<<<< HEAD
+
     """Unit tests for the mystery_1 function."""
 
     def test_add_integers(self):
@@ -26,3 +28,10 @@ class TestMystery1(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+=======
+    """ """
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_1(0, 0), 0)
+>>>>>>> b2060ebfbf4cba94199c62e2f44ebf18a390d55e
