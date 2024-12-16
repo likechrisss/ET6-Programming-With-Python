@@ -1,3 +1,9 @@
 def repeat_character(s: str, char: str, n: int) -> str:
-    # Initially, just return the original string to see tests fail, this is Step 1 
-    return s
+    # Minimal implementation just to pass the test, this is step 2
+    result = []
+    for c in s:
+        if c == char:
+            result.append(c * n)
+        else:
+            result.append(c)
+    return "".join(result)
