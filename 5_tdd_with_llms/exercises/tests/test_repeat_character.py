@@ -1,5 +1,5 @@
 import unittest
-from repeat_character import repeat_character
+from ..repeat_character import repeat_character
 
 class TestRepeatCharacter(unittest.TestCase):
     def test_abcabc_a_3(self):
