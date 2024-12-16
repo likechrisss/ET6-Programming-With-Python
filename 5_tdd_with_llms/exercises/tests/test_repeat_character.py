@@ -19,6 +19,13 @@ class TestRepeatCharacter(unittest.TestCase):
     def test_zzz_z_1(self):
         # repeating 'z' once in 'zzz' should stay 'zzz'
         self.assertEqual(repeat_character("zzz", "z", 1), "zzz")
+        
+    def test_haiti_i_2_middle_only(self):
+        # For "Haiti":
+        # H (0) a(1) i(2) t(3) i(4)
+        # Repeat only the middle i (index 2) twice, not the last i.
+        # Expected result: "Haiiti"
+        self.assertEqual(repeat_character("Haiti", "i", 2), "Haiiti")
 
 if __name__ == "__main__":
     unittest.main()
